@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Extension Options</h1>
+    <form id="optionsForm">
+      <label for="apiKey">OpenAI API Key:</label>
+      <input type="text" id="apiKey" name="apiKey">
+      <br>
+      <label for="model">Select GPT Model:</label>
+      <select id="model" name="model">
+          <option value="text-davinci-002">GPT-3</option>
+          <option value="text-davinci-003.5">GPT-3.5</option>
+          <option value="text-davinci-004">GPT-4</option>
+      </select>
+      <br>
+      <button type="submit">Save</button>
+      </form>
+      <script src="options.js"></script>
+  </body>
+  </html>

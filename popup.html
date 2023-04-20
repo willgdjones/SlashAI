@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+    }
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Settings</h1>
+  
+  <label for="api_key">OpenAI API Key:</label>
+  <input type="text" id="api_key">
+  
+  <label for="model">AI Model:</label>
+  <select id="model">
+    <option value="gpt3">GPT-3</option>
+    <option value="gpt3.5">GPT-3.5</option>
+    <option value="gpt4">GPT-4</option>
+  </select>
+  
+  <button id="save_button">Save</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
